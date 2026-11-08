@@ -2,10 +2,12 @@ import { MapPin, Phone } from 'lucide-react'
 import ContactBand from '../components/ContactBand'
 import PageHero from '../components/PageHero'
 import { locationDetails } from '../data'
+import Seo from '../components/Seo'
 
 export default function Locations() {
   return (
     <>
+      <Seo title="Sedes y atención legal | RATIO IURIS" description="Consulte las sedes de RATIO IURIS en Morales, Lamas, Lima, Jaén, Yurimaguas y San José de Sisa. Coordine su visita antes de acudir." />
       <PageHero
         section="Sedes"
         title="Asesoría legal más cerca de usted."

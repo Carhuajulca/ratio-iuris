@@ -162,7 +162,6 @@ export const team = [
   { image: '/images/equipo-uno.png', name: 'Juan Diego Ríos Ramirez', role: '', specialty: 'Asistente legal', portrait: 'portrait-lucas' },
   { image: '/images/equipo-silvestre.png', name: 'Luis Silvestre Ayala', role: '', specialty: 'Asistente de TI', portrait: 'portrait-camila' },
   { image: '/images/equipo-mabel.png', name: 'Aris Mabel Davila Davila', role: '', specialty: 'Administradora', portrait: 'portrait-elena' },
-  { image: '/images/equipo-alicia.png', name: 'Malu Alicia Chumbe Ambulay', role: '', specialty: 'Abogada', portrait: 'portrait-alicia' },
   { image: '/images/equipo-cuatro.png', name: 'Jimena Gatica Vásquez', role: '', specialty: 'Asistente Legal', portrait: 'portrait-rocio' },
   { image: '/images/equipo-valeria.png', name: 'Anny Alejandra Morí Panduro', role: '', specialty: 'Asistente legal', portrait: 'portrait-valeria' },
   { image: '/images/equipo-ocho.png', name: 'Cesar Rios Chavez', role: '', specialty: 'Asistente legal', portrait: 'portrait-valeria' },

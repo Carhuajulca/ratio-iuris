@@ -1,10 +1,12 @@
-import { AtSign, Mail, MapPin, MessagesSquare, Phone } from 'lucide-react'
+import { AtSign, Mail, MapPin, Phone } from 'lucide-react'
 import ContactForm from '../components/ContactForm'
 import PageHero from '../components/PageHero'
+import Seo from '../components/Seo'
 
 export default function Contact() {
   return (
     <>
+      <Seo title="Contactar a RATIO IURIS | Abogados en San Martín" description="Coordine una consulta con RATIO IURIS Abogados Asociados por teléfono, WhatsApp o correo. Atención desde Morales, San Martín." />
       <PageHero
         section="Contacto"
         title="Cuéntenos qué necesita resolver."
@@ -19,7 +21,6 @@ export default function Contact() {
           <div><MapPin /> <span><small>Sede principal</small>Morales, San Martín</span></div>
           <h3>También puede encontrarnos en</h3>
           <a href="https://instagram.com/ratio_iurisabog" target="_blank" rel="noreferrer"><AtSign /> <span><small>Instagram</small>@ratio_iurisabog</span></a>
-          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><MessagesSquare /> <span><small>Facebook</small>Estudio Jurídico RATIO IURIS</span></a>
         </aside>
       </section>
     </>

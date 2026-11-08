@@ -1,6 +1,7 @@
 import { Check, MessageCircle, Plus } from 'lucide-react'
 import { Link, Navigate, useParams } from 'react-router-dom'
 import ContactBand from '../components/ContactBand'
+import Seo from '../components/Seo'
 import { services, whatsappNumber } from '../data'
 
 export default function ServiceDetail() {
@@ -12,6 +13,7 @@ export default function ServiceDetail() {
 
   return (
     <>
+      <Seo title={`${service.title} en San Martín | RATIO IURIS`} description={`${service.description} Atención legal de RATIO IURIS en San Martín. Coordine una consulta para evaluar su caso.`} />
       <section className="service-hero">
         <Link className="back-link" to="/servicios">Todos los servicios</Link>
         <h1>{service.title}</h1>

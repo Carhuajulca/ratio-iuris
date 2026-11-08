@@ -3,10 +3,12 @@ import { Link } from 'react-router-dom'
 import ContactBand from '../components/ContactBand'
 import PageHero from '../components/PageHero'
 import { services } from '../data'
+import Seo from '../components/Seo'
 
 export default function Services() {
   return (
     <>
+      <Seo title="Servicios jurídicos en San Martín | RATIO IURIS" description="Asesoría legal en derecho penal, civil, familiar, laboral y conciliación. Conozca las áreas de práctica de RATIO IURIS." />
       <PageHero
         section="Servicios jurídicos"
         title="Una ruta clara para asuntos que no admiten improvisación."

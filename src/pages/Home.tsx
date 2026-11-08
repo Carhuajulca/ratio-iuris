@@ -1,11 +1,13 @@
 import { ArrowUpRight, MapPin, MessageCircle } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import ContactBand from '../components/ContactBand'
+import Seo from '../components/Seo'
 import { locations, services, team, whatsappNumber } from '../data'
 
 export default function Home() {
   return (
     <>
+      <Seo title="Abogados en San Martín | RATIO IURIS" description="Estudio jurídico en San Martín. Asesoría en derecho penal, civil, familiar, laboral y conciliación. Coordine una consulta con RATIO IURIS." />
       <section className="home-hero">
         <div className="hero-copy">
           <p className="section-tag">Estudio jurídico en San Martín</p>
@@ -78,7 +80,7 @@ export default function Home() {
               <img className={person.portrait} src={person.image} alt={`${person.name}, ${person.role}`} loading="lazy" />
               <div>
                 <strong>{person.name}</strong>
-                <span>{person.role} · {person.specialty}</span>
+                <span>{person.specialty}</span>
               </div>
             </Link>
           ))}

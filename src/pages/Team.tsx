@@ -1,4 +1,5 @@
 import ContactBand from '../components/ContactBand'
+import Seo from '../components/Seo'
 import { team } from '../data'
 
 export default function Team() {
@@ -6,6 +7,7 @@ export default function Team() {
 
   return (
     <>
+      <Seo title="Nuestro equipo de abogados | RATIO IURIS" description="Conozca al equipo de RATIO IURIS Abogados Asociados, con atención en Morales y otras ciudades de San Martín." />
       <section className="team-compact-hero">
         <p className="section-tag">Nuestro equipo</p>
         <h1>Profesionales a su lado.</h1>
@@ -21,7 +23,7 @@ export default function Team() {
           <div className="team-lead-copy">
             <p className="section-tag">Dirección y estrategia</p>
             <h2>{director.name}</h2>
-            <p className="person-specialty">{director.role} · {director.specialty}</p>
+            <p className="person-specialty">{director.specialty}</p>
             <p>Coordina la estrategia del estudio y la atención de asuntos que requieren análisis inmediato, preparación rigurosa y acompañamiento directo.</p>
             <blockquote>“Escuchar con atención es el primer paso para construir una defensa sólida.”</blockquote>
           </div>
@@ -43,13 +45,13 @@ export default function Team() {
                 <img
                   className={person.portrait}
                   src={person.image}
-                  alt={`${person.name}, ${person.role}`}
+                  alt={`${person.name}, ${person.specialty}`}
                   loading="lazy"
                 />
               </div>
               <div className="person-info">
                 <h3>{person.name}</h3>
-                <p>{person.role}</p>
+                <p>{person.specialty}</p>
               </div>
             </article>
           ))}

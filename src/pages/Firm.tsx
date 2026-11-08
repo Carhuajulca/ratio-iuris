@@ -1,10 +1,12 @@
 import ContactBand from '../components/ContactBand'
 import PageHero from '../components/PageHero'
 import { Link } from 'react-router-dom'
+import Seo from '../components/Seo'
 
 export default function Firm() {
   return (
     <>
+      <Seo title="Estudio jurídico en San Martín | RATIO IURIS" description="Conozca RATIO IURIS, estudio jurídico con presencia en San Martín. Asesoría legal directa, responsable y comprensible." />
       <PageHero
         section="El estudio"
         title="La preparación rigurosa también puede sentirse cercana."
