@@ -161,7 +161,7 @@ export const team = [
   { image: '/images/equipo-8510-fondo-blanco-logo.png', name: 'Naomi Sakura Ramirez Mendoza', role: '', specialty: 'Abogada', portrait: 'portrait-standard' },
   { image: '/images/equipo-8499-fondo-blanco-logo.png', name: 'Cristina Paola García Flores', role: '', specialty: 'Abogada', portrait: 'portrait-standard' },
   { image: '/images/equipo-8506-fondo-blanco-logo.png', name: 'Mario Flores Armas', role: '', specialty: 'Abogado', portrait: 'portrait-standard' },
-  { image: '/images/equipo-8537-fondo-blanco-logo.png', name: 'Aris Mabel Davila Davila', role: '', specialty: 'Asistente administrativo', portrait: 'portrait-standard' },
+  { image: '/images/equipo-integrante-14-fondo-blanco-logo.png', name: 'Aris Mabel Davila Davila', role: '', specialty: 'Asistente administrativo', portrait: 'portrait-standard' },
   { image: '/images/abogado-dos-fondo-blanco-logo.png', name: 'Juan Diego Ríos Ramirez', role: '', specialty: 'Asistente legal', portrait: 'portrait-standard' },
   { image: '/images/equipo-8508-fondo-blanco-logo.png', name: 'Ariana Alessandra Valera Valles', role: '', specialty: 'Asistente legal', portrait: 'portrait-standard' },
   { image: '/images/equipo-8511-fondo-blanco-logo.png', name: 'Piero Alava Amacifuen', role: '', specialty: 'Asistente legal', portrait: 'portrait-standard' },
@@ -169,6 +169,9 @@ export const team = [
   { image: '/images/equipo-dos-fondo-blanco-logo.png', name: 'Jimena Gatica Vásquez', role: '', specialty: 'Asistente legal', portrait: 'portrait-standard' },
   { image: '/images/equipo-8504-fondo-blanco-logo.png', name: 'Roxana Flores Morí', role: '', specialty: 'Asistente legal', portrait: 'portrait-standard' },
   { image: '/images/equipo-uno-fondo-blanco-logo.png', name: 'Anny Alejandra Morí Panduro', role: '', specialty: 'Asistente legal', portrait: 'portrait-standard' },
+  { image: '/images/equipo-integrante-13-fondo-blanco-logo.png', name: 'Tomás César Ríos Chávez', role: '', specialty: 'Asistente legal', portrait: 'portrait-standard' },
+  // { image: '/images/equipo-integrante-14-fondo-blanco-logo.png', name: 'Integrante del equipo 14', role: '', specialty: 'Equipo profesional', portrait: 'portrait-standard' },
+  { image: '/images/equipo-integrante-15-fondo-blanco-logo.png', name: 'Keny Luis Pezo Paredes', role: '', specialty: 'Asistente legal', portrait: 'portrait-standard' },
   { image: '/images/equipo-integrante-12-fondo-blanco-logo.png', name: 'Luis Silvestre Ayala', role: '', specialty: 'Asistente TI', portrait: 'portrait-standard' },
   
 
