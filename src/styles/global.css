@@ -475,12 +475,12 @@ p { line-height: 1.7; }
   .team-lead-copy .person-specialty { margin-bottom: 24px; }
   .team-lead-copy blockquote { margin-top: 28px; padding-top: 22px; font-size: 1.45rem; }
   .premium-team-heading { margin: 64px 0 32px; gap: 18px; }
-  .premium-team-grid { grid-template-columns: 1fr; gap: 18px; }
+  .premium-team-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 10px; }
   .person-photo { height: auto; min-height: 0; aspect-ratio: 4 / 5; }
-  .person-photo > span { top: 14px; left: 14px; max-width: calc(100% - 28px); padding: 7px 9px; font-size: .58rem; white-space: normal; }
-  .person-info { min-height: 0; padding: 20px 18px; }
-  .person-info h3 { font-size: 1.45rem; }
-  .person-info p { font-size: .7rem; }
+  .person-photo > span { display: none; }
+  .person-info { min-height: 104px; padding: 16px 13px; }
+  .person-info h3 { font-size: clamp(1.18rem, 5.4vw, 1.45rem); line-height: 1.02; }
+  .person-info p { font-size: .66rem; }
   .team-note { margin-top: 24px; }
   .services-directory article { min-height: auto; }
   .services-directory article { padding: 46px 0; gap: 24px; }
@@ -518,9 +518,8 @@ p { line-height: 1.7; }
 }
 
 @media (max-width: 350px) {
-  .home-team-grid, .premium-team-grid { grid-template-columns: 1fr; }
+  .home-team-grid { grid-template-columns: 1fr; }
   .home-team-grid > a, .home-team-grid > a.lead-preview { height: 380px; }
-  .person-photo { height: 360px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
