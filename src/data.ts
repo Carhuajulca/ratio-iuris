@@ -156,15 +156,21 @@ export const services = [
 export const locations = ['Morales', 'Lamas', 'Lima', 'Jaén', 'Yurimaguas', 'San José de Sisa']
 
 export const team = [
-  { image: '/images/equipo-alicia.png', name: 'Malu Alicia Chumbe Ambulay', role: '', specialty: 'Abogada', portrait: 'portrait-director' },
-  { image: '/images/equipo-mario.png', name: 'Mario Flores Armas ', role: '', specialty: 'Abogado', portrait: 'portrait-mateo' },
-  { image: '/images/equipo-sakura.png', name: 'Naomi Sakura Ramirez Mendoza', role: '', specialty: 'Abogada', portrait: 'portrait-adrian' },
-  { image: '/images/equipo-uno.png', name: 'Juan Diego Ríos Ramirez', role: '', specialty: 'Asistente legal', portrait: 'portrait-lucas' },
-  { image: '/images/equipo-silvestre.png', name: 'Luis Silvestre Ayala', role: '', specialty: 'Asistente de TI', portrait: 'portrait-camila' },
-  { image: '/images/equipo-mabel.png', name: 'Aris Mabel Davila Davila', role: '', specialty: 'Administradora', portrait: 'portrait-elena' },
-  { image: '/images/equipo-cuatro.png', name: 'Jimena Gatica Vásquez', role: '', specialty: 'Asistente Legal', portrait: 'portrait-rocio' },
-  { image: '/images/equipo-valeria.png', name: 'Anny Alejandra Morí Panduro', role: '', specialty: 'Asistente legal', portrait: 'portrait-valeria' },
-  { image: '/images/equipo-ocho.png', name: 'Cesar Rios Chavez', role: '', specialty: 'Asistente legal', portrait: 'portrait-valeria' },
+
+  { image: '/images/equipo-8498-fondo-blanco-logo.png', name: 'Malu Alicia Chumbe Ambulay', role: '', specialty: 'Equipo profesional', portrait: 'portrait-standard' },
+  { image: '/images/equipo-8510-fondo-blanco-logo.png', name: 'Naomi Sakura Ramirez Mendoza', role: '', specialty: 'Abogada', portrait: 'portrait-standard' },
+  { image: '/images/equipo-8499-fondo-blanco-logo.png', name: 'Cristina Paola García Flores', role: '', specialty: 'Abogada', portrait: 'portrait-standard' },
+  { image: '/images/equipo-8506-fondo-blanco-logo.png', name: 'Mario Flores Armas', role: '', specialty: 'Abogado', portrait: 'portrait-standard' },
+  { image: '/images/equipo-8537-fondo-blanco-logo.png', name: 'Aris Mabel Davila Davila', role: '', specialty: 'Asistente legal', portrait: 'portrait-standard' },
+  { image: '/images/abogado-dos-fondo-blanco-logo.png', name: 'Juan Diego Ríos Ramirez', role: '', specialty: 'Asistente legal', portrait: 'portrait-standard' },
+  { image: '/images/equipo-8508-fondo-blanco-logo.png', name: 'Ariana Alessandra Valera Valles', role: '', specialty: 'Asistente legal', portrait: 'portrait-standard' },
+  { image: '/images/equipo-8511-fondo-blanco-logo.png', name: 'Piero Alava Amacifuen', role: '', specialty: 'Asistente legal', portrait: 'portrait-standard' },
+  { image: '/images/equipo-8502-fondo-blanco-logo.png', name: 'Ruth Gabriela Reátegui Amasifuén ', role: '', specialty: 'Asistente legal', portrait: 'portrait-standard' },
+  { image: '/images/equipo-dos-fondo-blanco-logo.png', name: 'Jimena Gatica Vásquez', role: '', specialty: 'Asistente legal', portrait: 'portrait-standard' },
+  { image: '/images/equipo-8504-fondo-blanco-logo.png', name: 'Roxana Flores Morí', role: '', specialty: 'Asistente legal', portrait: 'portrait-standard' },
+  { image: '/images/equipo-uno-fondo-blanco-logo.png', name: 'Anny Alejandra Morí Panduro', role: '', specialty: 'Asistente legal', portrait: 'portrait-standard' },
+  { image: '/images/equipo-integrante-12-fondo-blanco-logo.png', name: 'Luis Silvestre Ayala', role: '', specialty: 'Asistente TI', portrait: 'portrait-standard' },
+  
 
 ]
 
