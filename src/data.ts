@@ -160,7 +160,7 @@ export const team = [
   { image: '/images/equipo-8498-fondo-blanco-logo.png', name: 'Malu Alicia Chumbe Ambulay', role: '', specialty: 'Equipo profesional', portrait: 'portrait-standard' },
   { image: '/images/equipo-8510-fondo-blanco-logo.png', name: 'Naomi Sakura Ramirez Mendoza', role: '', specialty: 'Abogada', portrait: 'portrait-standard' },
   { image: '/images/equipo-8499-fondo-blanco-logo.png', name: 'Cristina Paola García Flores', role: '', specialty: 'Abogada', portrait: 'portrait-standard' },
-  { image: '/images/equipo-8506-fondo-blanco-logo.png', name: 'Mario Flores Armas', role: '', specialty: 'Abogado', portrait: 'portrait-standard' },
+  { image: '/images/equipo-8506-fondo-blanco-logo.png', name: 'Mario Flores Armas', role: '', specialty: 'Asistente legal', portrait: 'portrait-standard' },
   { image: '/images/equipo-integrante-14-fondo-blanco-logo.png', name: 'Aris Mabel Davila Davila', role: '', specialty: 'Asistente administrativo', portrait: 'portrait-standard' },
   { image: '/images/abogado-dos-fondo-blanco-logo.png', name: 'Juan Diego Ríos Ramirez', role: '', specialty: 'Asistente legal', portrait: 'portrait-standard' },
   { image: '/images/equipo-8508-fondo-blanco-logo.png', name: 'Ariana Alessandra Valera Valles', role: '', specialty: 'Asistente legal', portrait: 'portrait-standard' },
