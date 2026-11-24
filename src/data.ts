@@ -153,7 +153,7 @@ export const services = [
   },
 ]
 
-export const locations = ['Morales', 'Lamas', 'Lima', 'Jaén', 'Yurimaguas', 'San José de Sisa']
+export const locations = ['Morales', 'Lamas', 'Lima', 'Jaén', 'Yurimaguas', 'San José de Sisa', 'Moyobamba', 'Cajamarca']
 
 export const team = [
 
@@ -186,4 +186,6 @@ export const locationDetails = [
   { city: 'Jaén', kind: 'Sede', address: 'Carretera Jaén-Chamaya km 14-15', hours: 'Lunes a viernes · 8:00 a. m. – 1:00 p. m.', afternoonHours: '2:00 p. m. – 5:00 p. m.' },
   { city: 'Yurimaguas', kind: 'Sede', address: 'Juan Primo Ruiz 323, Barrio La Loma', hours: 'Lunes a viernes · 8:00 a. m. – 1:00 p. m.', afternoonHours: '2:00 p. m. – 5:00 p. m.' },
   { city: 'San José de Sisa', kind: 'Sede', address: 'Jr. Arica 468', hours: 'Lunes a viernes · 8:00 a. m. – 1:00 p. m.', afternoonHours: '2:00 p. m. – 5:00 p. m.' },
+  { city: 'Moyobamba', kind: 'Sede', address: 'Jr. Trujillo, quinta cuadra', phone: '907428493', hours: 'Lunes a viernes · 8:00 a. m. – 1:00 p. m.', afternoonHours: '2:00 p. m. – 5:00 p. m.' },
+  { city: 'Cajamarca', kind: 'Sede', address: 'Jr. Ayacucho #340', phone: '924756748', hours: 'Lunes a viernes · 8:00 a. m. – 1:00 p. m.', afternoonHours: '2:00 p. m. – 5:00 p. m.' },
 ]

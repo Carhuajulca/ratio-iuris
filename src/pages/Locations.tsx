@@ -7,11 +7,11 @@ import Seo from '../components/Seo'
 export default function Locations() {
   return (
     <>
-      <Seo title="Sedes y atención legal | RATIO IURIS" description="Consulte las sedes de RATIO IURIS en Morales, Lamas, Lima, Jaén, Yurimaguas y San José de Sisa. Coordine su visita antes de acudir." />
+      <Seo title="Sedes y atención legal | RATIO IURIS" description="Consulte las sedes de RATIO IURIS en Morales, Lamas, Lima, Jaén, Yurimaguas, San José de Sisa, Moyobamba y Cajamarca. Coordine su visita antes de acudir." />
       <PageHero
         section="Sedes"
         title="Asesoría legal más cerca de usted."
-        text="Atendemos en Morales, Lamas, Lima, Jaén, Yurimaguas y San José de Sisa. Contáctenos antes de su visita para confirmar disponibilidad."
+        text="Atendemos en Morales, Lamas, Lima, Jaén, Yurimaguas, San José de Sisa, Moyobamba y Cajamarca. Contáctenos antes de su visita para confirmar disponibilidad."
       />
       <section className="locations-grid section-pad">
         {locationDetails.map((location, index) => (
@@ -26,7 +26,7 @@ export default function Locations() {
                 <span>{location.afternoonHours}</span>
               </div>
             </div>
-            <a href="tel:+51964259954"><Phone size={16} /> Coordinar una visita</a>
+            <a href={`tel:${location.phone ?? '+51964259954'}`}><Phone size={16} /> Coordinar una visita</a>
           </article>
         ))}
       </section>
