@@ -1,10 +1,15 @@
 import { MapPin, Phone } from 'lucide-react'
 import ContactBand from '../components/ContactBand'
 import PageHero from '../components/PageHero'
-import { locationDetails } from '../data'
+import { locationDetails, whatsappNumber } from '../data'
 import Seo from '../components/Seo'
 
 export default function Locations() {
+  const whatsappFor = (phone?: string) => {
+    const number = phone?.replace(/\D/g, '') || whatsappNumber
+    return number.length === 9 ? `51${number}` : number
+  }
+
   return (
     <>
       <Seo title="Sedes y atención legal | RATIO IURIS" description="Consulte las sedes de RATIO IURIS en Morales, Lamas, Lima, Jaén, Yurimaguas, San José de Sisa, Moyobamba y Cajamarca. Coordine su visita antes de acudir." />
@@ -26,7 +31,13 @@ export default function Locations() {
                 <span>{location.afternoonHours}</span>
               </div>
             </div>
-            <a href={`tel:${location.phone ?? '+51964259954'}`}><Phone size={16} /> Coordinar una visita</a>
+            <a
+              href={`https://wa.me/${whatsappFor(location.phone)}?text=${encodeURIComponent(`Hola, quisiera coordinar una visita en la sede de ${location.city}.` )}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Phone size={16} /> Coordinar una visita
+            </a>
           </article>
         ))}
       </section>
